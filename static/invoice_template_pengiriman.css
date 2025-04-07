@@ -1,0 +1,49 @@
+/* shipping_invoice.css */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* Increase base size */
+    color: #1a1a1a;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 28px; /* Bigger invoice title */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+strong {
+    font-size: 18px; /* Bigger labels like "Nama:" */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.invoice-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo img {
+    height: 120px;
+}
+.section {
+    margin-bottom: 30px;
+}
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.info-line {
+    margin-bottom: 6px;
+}
